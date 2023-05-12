@@ -1,0 +1,151 @@
+
+.hero{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(70%);
+}
+.hero-content {
+   position: relative;
+   font-family: "Poppins", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+}
+.hero-title {
+   font-size: 1rem;
+   padding: 10px 200px;
+   font-weight: 600;
+   margin-bottom: 0;
+}
+.hero-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 6px;
+  background-color: rgb(54, 33, 0);
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+}
+.les_liens ul li 
+{
+    list-style-type: none;
+    display: inline-block;  
+}
+.les_liens
+{
+    text-align: center;
+    z-index: 2;
+    padding: 3% 5% 0% 5%; 
+}
+.liens
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+	background-color: #41404034;
+	border-spacing: 0px;
+	border-radius: 50px 50px 0px 50px;
+    padding: 10px 70px;
+    text-align: center;
+    margin-right: 1vh;
+}
+.liens2
+{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: #41404034;
+	border-radius: 50px 50px 50px 0px;
+    padding: 10px 35px;
+    text-align: center;
+}
+.liens:hover
+{
+    background-color: #353535;
+    border: 1px solid #333333;
+    color: white;
+}
+.liens2:hover
+{
+    background-color: #353535;
+    border: 1px solid #333333;
+    color: white;
+}
+.liens a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.liens2 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.logo-central{
+    height: 25vh;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    [class*="col-"] {
+        width: 100%;
+        overflow: hidden;
+    }
+    .logo-central{
+        height: 25vh;
+    }
+    .accueil{
+        width: 100%; 
+    }
+} 
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    [class*="col-"] {
+        width: 100%;
+        overflow: hidden;
+    }
+    .logo-central{
+        height: 25vh;
+    }
+    .accueil{
+        width: 100%; 
+    }
+} 
+@media only screen and (min-width: 1200px) {
+    [class*="col-"] {
+        width: 100%;
+        overflow: hidden;
+    }
+    .logo-central{
+        height: 25vh;
+    }
+    .accueil{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
