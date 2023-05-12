@@ -1,0 +1,7 @@
+PORT=5000
+MONGODB_URI="mongodb+srv://admin:admin@cluster0.mup5h.mongodb.net/lms"
+SECRET_KEY=somethingsecret
+NODE_ENV=production
+CLOUDINARY_CLOUD_NAME="dlizai3e7"
+CLOUDINARY_API_KEY="145411868841281"
+CLOUDINARY_API_SECRET="oAcQnkJ9-whDU3XSGj03wv15yMo"
