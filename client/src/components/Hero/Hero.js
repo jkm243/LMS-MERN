@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo3.png'
-import '../../styles/animations.css'
-import './Hero.css'
+// import './Hero.css'
 
 const Hero = () => {
     return (

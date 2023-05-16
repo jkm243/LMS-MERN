@@ -97,6 +97,9 @@ const Routing = () => {
       <Route exact path="/course/:courseId">
         <CourseInfo />
       </Route>
+      <Route exact path="/home">
+        <Home />
+      </Route>
 
       <Route  path="*">
         <NotFound />

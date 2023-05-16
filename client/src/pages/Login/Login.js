@@ -7,6 +7,7 @@ import Spinner_comp from "../../components/Spinner/Spinner_comp";
 import Toast_Comp from "../../components/Toast/Toast_Comp";
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import '../../styles/animations.css'
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -78,7 +79,7 @@ const Login = () => {
           renderToast={toast}
           msg="Login Success"
         />
-        <Row>
+        <Row className="fadeInDown">
           <Col md={6} className="mx-auto mt-4 ">
             <Paper className="p-4 shadow rounded">
               <Typography

@@ -50,10 +50,10 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <div className="left__sidebar__dashboard">
-        <Sidebar Icon={DashboardIcon} title="Dashboard" link="/" />
-        <Sidebar Icon={PersonIcon} title="Profile" link="/profile" />
+        <Sidebar Icon={DashboardIcon} title="Приборная панель" link="/" />
+        <Sidebar Icon={PersonIcon} title="Профиль" link="/profile" />
         <Sidebar Icon={TouchAppIcon} title="Grades" link="/grades" />
-        <Sidebar Icon={MessageIcon} title="Messages" link="/messages" />
+        <Sidebar Icon={MessageIcon} title="Сообщение" link="/messages" />
         <Sidebar
           Icon={SettingsApplicationsIcon}
           title="Preferences"
@@ -66,7 +66,7 @@ const Dashboard = () => {
         <Container>
           <div className={styles.dashboard__header__name}>
             <h2 className={styles.dashboard__name}>{user && user.userName}</h2>
-            <Link to="/">Dashboard</Link>
+            <Link to="/">Приборная панель</Link>
           </div>
         </Container>
 
@@ -74,24 +74,24 @@ const Dashboard = () => {
           <Body4Card
             link="/messages"
             shortTitle="Communicate"
-            title="Message"
+            title="Сообщение"
             Icon={MessageIcon}
           />
           <Body4Card
             link="/profile"
             shortTitle="Your Profile"
-            title="Profile"
+            title="Профиль"
             Icon={AccountCircleOutlinedIcon}
           />
           <Body4Card
             link="/settings"
             shortTitle="Preferences"
-            title="Settings"
+            title="Настройки"
             Icon={SettingsApplicationsIcon}
           />
           <Body4Card
             shortTitle="Performance"
-            title="Grades"
+            title="Оценки"
             Icon={TouchAppIcon}
           />
         </div>
@@ -105,14 +105,14 @@ const Dashboard = () => {
                   color="primary"
                   variant="contained"
                 >
-                  Customize This Page
+                  Настройте эту страницу
                 </Button>
                 <div>
                   <Row>
                     <Col>
                       <Paper className="d-flex justify-content-between align-items-center p-2 flex-wrap">
                         <Typography variant="h6">
-                          Recently accessed courses
+                          Недавно посещенные курсы
                         </Typography>
 
                         <div className={styles.icon__style}>
@@ -168,7 +168,7 @@ const Dashboard = () => {
 
               <Container className="mt-5">
                 <Paper className="d-flex justify-content-between align-items-center p-4">
-                  <Typography variant="h6">Courses</Typography>
+                  <Typography variant="h6">Курсы</Typography>
                 </Paper>
                 <Divider />
 
@@ -187,7 +187,7 @@ const Dashboard = () => {
 
                 <div className=" d-flex align-items-center my-2">
                   <Typography className="mr-3" variant="subtitle1">
-                    Show
+                    Показывать
                   </Typography>
                   <select
                     className={styles.dropdown__style}

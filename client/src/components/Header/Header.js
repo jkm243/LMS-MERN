@@ -38,7 +38,7 @@ const Header = () => {
           <ul>
             {
               user.role==="Teacher" && <> <li>
-              <NavLink onClick={toggleClose} to="/teacher-dashboard">Dashboard</NavLink>
+                <NavLink onClick={toggleClose} to="/teacher-dashboard">Приборная панель</NavLink>
             </li>
             
            
@@ -48,38 +48,38 @@ const Header = () => {
             }
             {
               user.role==="Admin" && <> <li >
-              <NavLink onClick={toggleClose} to="/admin-dashboard">Dashboard</NavLink>
+                <NavLink onClick={toggleClose} to="/admin-dashboard">Приборная панель</NavLink>
             </li>
             <li className="admin__toggle__menu">
-              <NavLink onClick={toggleClose} to="/admin/course-info">Course-Info</NavLink>
+                  <NavLink onClick={toggleClose} to="/admin/course-info">Информация о курсе</NavLink>
             </li>
             <li className="admin__toggle__menu">
-              <NavLink onClick={toggleClose} to="/admin/student-info">Student-Info</NavLink>
+                  <NavLink onClick={toggleClose} to="/admin/student-info">Информация о студенте</NavLink>
             </li>
             <li className="admin__toggle__menu">
-              <NavLink onClick={toggleClose} to="/admin/teacher-info">Teacher-Info</NavLink>
+                  <NavLink onClick={toggleClose} to="/admin/teacher-info">Информация об учителе</NavLink>
             </li>
             
             </>
             }
             {
               user.role==="Student" &&<><li>
-              <NavLink onClick={toggleClose} to="/">Dashboard</NavLink>
+                <NavLink onClick={toggleClose} to="/">Приборная панель</NavLink>
             </li>
             <li>
               <NavLink onClick={toggleClose} to="/ucam">UCAM</NavLink>
             </li>
 
             <li>
-              <NavLink onClick={toggleClose} to="/library">LIBRARY</NavLink>
+                  <NavLink onClick={toggleClose} to="/library">Библиотека</NavLink>
             </li> </> 
             }
             
             <li>
-              <Link onClick={toggleClose} to="/profile">Profile</Link>
+              <Link onClick={toggleClose} to="/profile">Профиль</Link>
             </li>
             <li>
-              <NavLink onClick={toggleClose} to="/all-courses">All Courses</NavLink>
+              <NavLink onClick={toggleClose} to="/all-courses">Все курсы</NavLink>
             </li>
 
             {
@@ -130,16 +130,17 @@ const Header = () => {
             <SettingsIcon />
           </IconButton>
           <Link to="/profile">
-            <Avatar>R</Avatar>
+            <Avatar>P</Avatar>
           </Link>
         </div>
       ) : (
         <div className="d-flex list-unstyled">
           <li className="mr-3">
-            <NavLink to="/Login">Login</NavLink>
+              <NavLink to="/Login">Вход</NavLink>
           </li>
           <li>
-            <NavLink to="/Register">Register</NavLink>
+              <NavLink id="auth_button_login"
+                type="primary" to="/Register">Регистрировать</NavLink>
           </li>
         </div>
       )}
