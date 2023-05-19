@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+#App {
+  display: flex;
+  padding: 15px;
+}
+#App .Meta {
+  flex-grow: 1;
+  padding-right: 15px;
+}
+#App .Meta input {
+  font-family: inherit;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+#App .Meta button {
+  padding: 10px 15px;
+  border: 1px solid #bebebe;
+  background-color: #fb8633;
+  font-family: inherit;
+  margin: 20px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#App #downloadWrCerter {
+  padding: 20px;
+}
+#App #CertificateWrCerter {
+  box-shadow: 0 0 5px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+#App #CertificateWrCerter img {
+  display: block;
+}
+#App #CertificateWrCerter p {
+  font-family: "WindSong", cursive;
+  margin: 0;
+  position: absolute;
+  left: 150px;
+  top: 300px;
+  font-size: 40pt;
+}

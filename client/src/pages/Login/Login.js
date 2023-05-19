@@ -95,22 +95,22 @@ const Login = () => {
 
               <Form onSubmit={formSubmitHandler}>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Email address</Form.Label>
+                  <Form.Label>Адрес электронной почты</Form.Label>
                   <Form.Control
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     type="email"
-                    placeholder="Enter email"
+                    placeholder="Адрес электронной почты"
                   />
                   <span style={{ color: "red" }}>{error && error.email}</span>
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
+                  <Form.Label>Пароль</Form.Label>
                   <Form.Control
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
-                    placeholder="Password"
+                    placeholder="Пароль"
                   />
                   <span style={{ color: "red" }}>
                     {error && error.password}
@@ -118,8 +118,8 @@ const Login = () => {
                 </Form.Group>
 
                 <Typography style={{ color: "GrayText" }} variant="subtitle2">
-                  Don't Have an account?
-                  <Link to="/register">Register Here</Link>
+                  У вас нет учетной записи?
+                  <Link to="/register">Зарегистрируйтесь здесь</Link>
                 </Typography>
                 <Button
                   className="mt-2"

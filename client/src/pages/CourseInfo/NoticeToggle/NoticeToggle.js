@@ -46,15 +46,15 @@ const NoticeToggle = ({exp}) => {
                     <Typography className={classes.heading}>{title}</Typography>
                   </AccordionSummary>
                   <Typography className='mx-3 my-2' variant="h6">{title}</Typography>
-                  <Typography className='mx-5 my-2' variant="h6">Lesson Materials</Typography>
+                    <Typography className='mx-5 my-2' variant="h6">Материалы для урока</Typography>
                   <AccordionDetails>
                     
                     
                     <NoticeToggleRow
                     
                     Icon={NoteAddIcon}
-                    title="Course Announcement"
-                    description="General news and announcements from the teachers for the students of the course. Teachers will use this activity to post course updates and students are automatically subscribed to this announcement for quick updates."
+                        title="Объявление о курсе"
+                        description="Общие новости и объявления от преподавателей для слушателей курса. Преподаватели будут использовать это действие для публикации обновлений курса, а учащиеся автоматически подписываются на это объявление для получения быстрых обновлений."
                     />
                     <Divider/>
                     </AccordionDetails>
@@ -63,8 +63,8 @@ const NoticeToggle = ({exp}) => {
                     
                     Icon={MovieFilterIcon}
                     title="
-                    Lesson Document (Presentation)File"
-                    description="This is the main material from the teacher on the lesson. This can be a Word Document, PDF, or PowerPoint document. Simply edit this activity and attach the document file in the files section. Teachers may use the description field to provide additional guidelines to students on how to go through the document."
+                    Файл документа урока (презентации)"
+                        description="Это основной материал от учителя на уроке. Это может быть документ Word, PDF или PowerPoint. Просто отредактируйте это действие и прикрепите файл документа в разделе. Преподаватели могут использовать поле описания, чтобы предоставить учащимся дополнительные рекомендации по ознакомлению с документом."
                     />
                     <Divider/>
                     </AccordionDetails>
@@ -72,8 +72,8 @@ const NoticeToggle = ({exp}) => {
                     <NoticeToggleRow
                     
                     Icon={ExtensionIcon}
-                    title="External resource for the lessonURL"
-                    description="Click on Edit and replace the Title and external url to add external resources relevant to the lesson."
+                        title="Внешний ресурс для lessonURL"
+                        description="Нажмите Редактировать и замените заголовок и внешний URL-адрес, чтобы добавить внешние ресурсы, имеющие отношение к уроку."
                     />
                     <Divider/>
                     </AccordionDetails>
@@ -89,8 +89,8 @@ const NoticeToggle = ({exp}) => {
                     <NoticeToggleRow
                     
                     Icon={InsertCommentIcon}
-                    title="Discussion on the Lesson"
-                    description='Use discussion forum to engage students in discussion relevant to the lesson topics. It is good way to engage them in peer studies and help each other out on their learning along with the teacher. There are several forum types. This one is a Q and A discussion forum where students can ask questions and answers one another. The teacher may also provide them feedback on their submission. It is better to create a few discussion threads asking some questions for the students to reply back. To do it, click on "Add a new question" button. Click on edit to change the settings to customize according to need.'
+                        title="Обсуждение урока"
+                        description='Используйте дискуссионный форум, чтобы вовлечь учащихся в обсуждение, относящееся к темам урока. Это хороший способ вовлечь их в совместные занятия и помогать друг другу в учебе вместе с учителем. Существует несколько типов форумов. Это форум вопросов и дискуссий, где студенты могут задавать вопросы и отвечать друг другу. Учитель также может предоставить им обратную связь по их представлению. Лучше создать несколько тем для обсуждения, задавая несколько вопросов, на которые учащиеся могли бы ответить. Чтобы сделать это, нажмите на кнопку "Добавить новый вопрос". Нажмите на кнопку Изменить, чтобы изменить настройки в соответствии с потребностями.'
                     />
                     <Divider/>
                   </AccordionDetails>

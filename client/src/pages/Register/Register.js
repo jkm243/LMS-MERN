@@ -56,7 +56,7 @@ const Register = () => {
   }
 
   useEffect(() => {
-    if(user && user.role=="Student")
+    if(user && user.role==="Student")
     {
       history.push('/')
     }
@@ -77,7 +77,7 @@ const Register = () => {
         <Toast_Comp
           setToast={setToast}
           renderToast={toast}
-          msg="Registration Success Please Login"
+          msg="Регистрация прошла успешно, пожалуйста, войдите в систему"
         />
         <Row className="fadeInDown">
           <Col md={6} className="mx-auto mt-4 ">
@@ -95,50 +95,50 @@ const Register = () => {
 
               <Form onSubmit={formSubmitHandler}>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Username</Form.Label>
+                  <Form.Label>Имя пользователя</Form.Label>
                   <Form.Control
                     onChange={(e) => setUserName(e.target.value)}
                     type="text"
-                    placeholder="Enter Your Username"
+                    placeholder="Введите свое имя пользователя"
                   />
                   <span style={{ color: "red" }}>
                     {error && error.userName}
                   </span>
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Email address</Form.Label>
+                  <Form.Label>Адрес электронной почты</Form.Label>
                   <Form.Control
                     onChange={(e) => setEmail(e.target.value)}
                     type="email"
-                    placeholder="Enter email"
+                    placeholder="Введите адрес электронной почты"
                   />
                   <span style={{ color: "red" }}>{error && error.email}</span>
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
+                  <Form.Label>Пароль</Form.Label>
                   <Form.Control
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
-                    placeholder="Password"
+                    placeholder="Пароль"
                   />
                   <span style={{ color: "red" }}>
                     {error && error.password}
                   </span>
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Confirm Password</Form.Label>
+                  <Form.Label>Подтвердите пароль</Form.Label>
                   <Form.Control
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     type="password"
-                    placeholder="Confirm Password"
+                    placeholder="Подтвердите пароль"
                   />
                   <span style={{ color: "red" }}>
                     {error && error.confirmPassword}
                   </span>
                 </Form.Group>
                 <Typography style={{ color: "GrayText" }} variant="subtitle2">
-                  Already Have an account?
-                  <Link to="/login">Login Here</Link>
+                  У вас уже есть учетная запись?
+                  <Link to="/login">Войдите здесь</Link>
                 </Typography>
                 <Button
                   className="mt-2"

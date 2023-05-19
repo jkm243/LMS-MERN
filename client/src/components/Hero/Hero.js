@@ -17,8 +17,8 @@ const Hero = () => {
                     </div>
                     <div className="les_liens">
                         <ul>
-                            <li className="liens fadeIn third"><Link to='/signin'>Sign in</Link></li>
-                            <li className="liens2 fadeIn fourth"><Link to='/signup'>Sign up</Link></li>
+                            <li className="liens fadeIn third"><Link to='/signin'>Вход</Link></li>
+                            <li className="liens2 fadeIn fourth"><Link to='/signup'>Регистрироваться</Link></li>
                         </ul>
                     </div>
                     <p className="hero-footer fadeIn fourth">Tout droits réservés - Jacques Katsuva - Copyright 2019</p>

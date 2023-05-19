@@ -11,9 +11,9 @@ const AllCourses = () => {
         <div>
             <Container>
                <Typography className='text-center my-3 border-bottom' variant='h3' color="primary" >
-                   All Courses
+                    Все курсы
                </Typography>
-               <Suspense  fallback={<div>Loading...</div>}>
+                <Suspense fallback={<div>Загрузка...</div>}>
                <CardOfAllCourse/>
                </Suspense>
             

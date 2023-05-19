@@ -13,7 +13,7 @@ const TeacherDashboard = () => {
                 className="text-center text-primary py-5"
                 variant="h4"
               >
-                Welcome to Teacher Dashboard
+                  Добро пожаловать на панель управления преподавателя
                 
               </Typography>
             </Paper>

@@ -24,7 +24,7 @@ const AdminDashboard = () => {
                 className="text-center text-primary py-5"
                 variant="h4"
               >
-                Welcome to Admin Dashboard
+                Добро пожаловать на панель администратора
                 
               </Typography>
             </Paper>

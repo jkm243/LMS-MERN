@@ -3,7 +3,7 @@ import React from 'react';
 const Libray = () => {
     return (
         <div>
-            <h2>This page Comming soon..</h2>
+            <h2>Эта страница скоро появится...</h2>
         </div>
     );
 };

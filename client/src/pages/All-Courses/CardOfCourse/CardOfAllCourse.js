@@ -43,7 +43,7 @@ const CardOfAllCourse = () => {
                     <CardMedia
                       className={classes.media}
                       image={val.courseThumbnail}
-                      title="Contemplative Reptile"
+                      title="Созерцательная рептилия"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">

@@ -3,7 +3,7 @@ import React from 'react';
 const Ucam = () => {
     return (
         <div>
-            <h2>This page is comming soon...</h2>
+            <h2>Эта страница скоро появится...</h2>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const NotFound = () => {
       <Button className='my-3' onClick={()=>{
           history.push('/admin-dashboard')
       }} variant="contained" color="primary">
-        Back to Home
+        Вернуться на главную страницу
       </Button>
     </div>
   );

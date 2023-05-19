@@ -92,7 +92,7 @@ const Header = () => {
                   history.push("/login");
                 }}
               >
-                Logout
+                  Выход
               </Button>
             </li> :  <li className="logout__button">
               <Button

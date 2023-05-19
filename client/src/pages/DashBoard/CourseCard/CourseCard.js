@@ -12,16 +12,16 @@ const CourseCard = ({title,name,id,img}) => {
             <Link to={`/course/${id}`} className={Styles.container}>
             <img className={Styles.image} src={img}alt=""/>
             <div className={Styles.overlay}>
-            <p className={Styles.text}>View</p>
+                        <p className={Styles.text}>Смотреть</p>
             </div>
             </Link>
             
             
             <div className={Styles.course__content}>
-                <span>Jan-Jun 2021</span>
+                    <span>Январь-июнь 2023 года</span>
                 <h5>{name}</h5>
                 <h5>{title}</h5>
-                <Button color='primary' variant="contained" >Published</Button><br/>
+                    <Button color='primary' variant="contained" >Опубликованный</Button><br/>
                     <span>Это шаблон курса, который будет использоваться в качестве учебного комплекта для преподавателей.</span>
             </div>
             

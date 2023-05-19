@@ -30,6 +30,7 @@ import NotFound from "./pages/404NotFoud/NotFound";
 import Libray from "./pages/Library/Libray";
 import Ucam from "./pages/Ucam/Ucam";
 import Home from "./pages";
+import Certification from "./pages/Certification/Certification";
 
 const Routing = () => {
   const history = useHistory();
@@ -100,6 +101,10 @@ const Routing = () => {
       <Route exact path="/home">
         <Home />
       </Route>
+      <Route path='/certification' component={() => {
+        window.location.href = 'https://g26tfr-3000.csb.app/';
+        return null;
+      }} />
 
       <Route  path="*">
         <NotFound />

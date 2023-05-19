@@ -13,17 +13,17 @@ const SidebarAdmin = () => {
     <div className={Styles.sidebarAdmin}>
       <Sidebar title="Dashboard" link="/admin-dashboard" Icon={DashboardIcon} />
       <Sidebar
-        title="Course"
+        title="Курс"
         link="/admin/course-info"
         Icon={LocalLibraryIcon}
       />
       <Sidebar
-        title="Student"
+        title="Студент"
         link="/admin/student-info"
         Icon={GroupIcon}
       />
       <Sidebar
-        title="Teacher"
+        title="Преподаватель"
         link="/admin/teacher-info"
         Icon={PersonIcon}
       />
