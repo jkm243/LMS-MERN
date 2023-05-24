@@ -103,8 +103,10 @@ const Routing = () => {
       </Route>
       <Route path='/certification' component={() => {
         window.location.href = 'https://g26tfr-3000.csb.app/';
-        return null;
-      }} />
+        }} />
+      {/* <Route exact path="/certification">
+        <Certification />
+      </Route> */}
 
       <Route  path="*">
         <NotFound />
