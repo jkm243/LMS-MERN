@@ -9,13 +9,13 @@
 <h1 align="center">Pop&#39;Uk</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jkm243/pop&#39;uk?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jkm243/lms-mern?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jkm243/pop&#39;uk?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jkm243/lms-mern;uk?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jkm243/pop&#39;uk?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jkm243/lms-mern?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/jkm243/pop&#39;uk?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/jkm243/lms-mern?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/jkm243/pop&#39;uk?color=56BEB8" /> -->
 
