@@ -91,10 +91,10 @@
 
 ```bash
 # Clone this project
-$ git clone https://github.com/jkm243/pop&#39;uk
+$ git clone https://github.com/jkm243/lms-mern
 
 # Access
-$ cd pop&#39;uk
+$ cd lms-mern
 
 # Install dependencies
 $ yarn
